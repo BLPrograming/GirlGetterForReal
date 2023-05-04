@@ -23,38 +23,71 @@ struct ContentView: View {
             
             
             Button(action: {
-                    print("sign up as girl")
+                    print("signed up as a girl")
             }) {
                 Text("Sign Up As A Girl")
-                    .frame(minWidth: 0, maxWidth: 100)
+                    .frame(minWidth: 0, maxWidth: 150)
                   .font(.system(size: 18))
                   .padding()
                   .foregroundColor(.black)
              }
               .border(Color(hue: 0.872, saturation: 0.985, brightness: 0.962))
             
+              .padding(.bottom)
+              .padding(.bottom)
+            
+            
+            Button(action: {
+                    print("signed up as a boy")
+            }) {
+                Text("Sign Up As A Boy")
+                    .frame(minWidth: 0, maxWidth: 150)
+                  .font(.system(size: 18))
+                  .padding()
+                  .foregroundColor(.black)
+             }
+            .border(Color.blue)
+            
+            
+            .padding(.bottom)
+            .padding(.bottom)
+            
+            
+            Button(action: {
+                    print("logged in as a girl")
+            }) {
+                Text("Log In As A Girl")
+                    .frame(minWidth: 0, maxWidth: 150)
+                  .font(.system(size: 18))
+                  .padding()
+                  .foregroundColor(.black)
+             }
+              .border(Color(hue: 0.872, saturation: 0.985, brightness: 0.962))
+            
+            
+              .padding(.bottom)
+              .padding(.bottom)
+            
+            
+            
+            Button(action: {
+                    print("logged in as a boy")
+            }) {
+                Text("Log In As A Boy")
+                    .frame(minWidth: 0, maxWidth: 150)
+                  .font(.system(size: 18))
+                  .padding()
+                  .foregroundColor(.black)
+             }
+            .border(Color.blue)
+
+            
         }
         
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
+        
+        
+        
+        
         .padding(.bottom)
         .padding(.bottom)
         .padding(.bottom)
