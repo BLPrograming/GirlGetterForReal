@@ -11,6 +11,7 @@
 		AF11CF432A0194FA00E361C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11CF422A0194FA00E361C1 /* ContentView.swift */; };
 		AF11CF452A0194FB00E361C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF11CF442A0194FB00E361C1 /* Assets.xcassets */; };
 		AF11CF482A0194FB00E361C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF11CF472A0194FB00E361C1 /* Preview Assets.xcassets */; };
+		AF9B4B862A043C8500E67BBF /* SignUpGirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B4B852A043C8500E67BBF /* SignUpGirl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AF11CF422A0194FA00E361C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF11CF442A0194FB00E361C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF11CF472A0194FB00E361C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF9B4B852A043C8500E67BBF /* SignUpGirl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpGirl.swift; path = ../SignUpGirl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AF11CF402A0194FA00E361C1 /* GirlGetterApp.swift */,
 				AF11CF422A0194FA00E361C1 /* ContentView.swift */,
+				AF9B4B852A043C8500E67BBF /* SignUpGirl.swift */,
 				AF11CF442A0194FB00E361C1 /* Assets.xcassets */,
 				AF11CF462A0194FB00E361C1 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF11CF432A0194FA00E361C1 /* ContentView.swift in Sources */,
+				AF9B4B862A043C8500E67BBF /* SignUpGirl.swift in Sources */,
 				AF11CF412A0194FA00E361C1 /* GirlGetterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
