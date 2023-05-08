@@ -9,10 +9,52 @@ import SwiftUI
 
 struct SignUpBoy: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            
+            
+            ZStack{
+            
+                Rectangle()
+                    .frame(height: 10000)
+                    .frame(width: 400)
+                    .foregroundColor(Color.blue)
+                
+            Text("Sign Up As A Boy")
+                
+               
+                
+                
+                
+                
+                
+            
+                    
+                
+                
+        }
+            Spacer()
+                .frame(height: 325)
+                
+
+               
+                
+                
+               
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            }
+        
     }
 }
-
 struct SignUpBoy_Previews: PreviewProvider {
     static var previews: some View {
         SignUpBoy()

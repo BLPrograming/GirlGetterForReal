@@ -66,6 +66,7 @@ struct ContentView: View {
                         .font(.system(size: 18))
                         .padding()
                         .foregroundColor(.black)
+                    
                 }
                 .border(Color.blue)
                 
@@ -116,6 +117,8 @@ struct ContentView: View {
         .padding(.bottom)
         .padding(.bottom)
     }
+    
+    
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
