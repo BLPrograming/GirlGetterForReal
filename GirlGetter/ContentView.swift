@@ -14,9 +14,9 @@ struct ContentView: View {
                 .foregroundColor(.blue)
             Text("Getter")
                 .foregroundColor(Color(hue: 0.872, saturation: 0.985, brightness: 0.962))
-            
+                
         }
-        .padding(.bottom)
+        
         .padding(.bottom)
         .padding(.bottom)
         .padding(.bottom)
