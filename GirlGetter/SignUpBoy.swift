@@ -14,26 +14,52 @@ struct SignUpBoy: View {
             
             ZStack{
             
+                @State var UserName = ""
+                @State var Password = ""
+                @State var Email = ""
+                
                 Rectangle()
                     .frame(height: 10000)
                     .frame(width: 400)
                     .foregroundColor(Color.blue)
+           
                 
-            Text("Sign Up As A Boy")
-                
-               
-                
-                
-                
-                
-                
-            
+                VStack{
                     
+                    Image("men")
+                        .resizable()
+                      .frame(width: 100, height: 150, alignment: .top)
+                    
+                    Text("Sign Up As A Boy")
+                        .fontWeight(.medium)
+                        .font(.system(size: 30))
+                    
+                        .padding(.bottom)
+                    
+                    Text("Username")
+                        .font(.system(size: 25))
+                    TextField("Enter Username Here", text: $UserName)
+                                .textFieldStyle(.roundedBorder)
+                                .padding()
+                    Text("Password")
+                        .font(.system(size: 25))
+                    TextField("Enter Password Here", text: $Password)
+                                .textFieldStyle(.roundedBorder)
+                                .padding()
+                    Text("Email")
+                        .font(.system(size: 25))
+                    TextField("Enter Email Here", text: $Email)
+                                .textFieldStyle(.roundedBorder)
+                                .padding()
+                    
+                    
+                    
+                }
                 
                 
         }
             Spacer()
-                .frame(height: 325)
+                .frame(height: 200)
                 
 
                
