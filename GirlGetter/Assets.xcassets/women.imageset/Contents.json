@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "0-6210_women-clipart-woman-clip-art-at-clker-vector-clip-art-woman-bathroom.png.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

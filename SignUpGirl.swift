@@ -21,6 +21,9 @@ struct SignUpGirl: View {
                 
             Text("Sign Up As A Girl")
                 
+                
+                
+                
             
                     
                 
