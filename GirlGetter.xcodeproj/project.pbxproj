@@ -12,6 +12,9 @@
 		AF11CF452A0194FB00E361C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF11CF442A0194FB00E361C1 /* Assets.xcassets */; };
 		AF11CF482A0194FB00E361C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF11CF472A0194FB00E361C1 /* Preview Assets.xcassets */; };
 		AF9B4B862A043C8500E67BBF /* SignUpGirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B4B852A043C8500E67BBF /* SignUpGirl.swift */; };
+		AFCB59AA2A0979B9006F1117 /* SignUpBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB59A92A0979B9006F1117 /* SignUpBoy.swift */; };
+		AFCB59AC2A097A81006F1117 /* LogInGirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB59AB2A097A81006F1117 /* LogInGirl.swift */; };
+		AFCB59AE2A097A91006F1117 /* LogInBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB59AD2A097A91006F1117 /* LogInBoy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		AF11CF442A0194FB00E361C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF11CF472A0194FB00E361C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF9B4B852A043C8500E67BBF /* SignUpGirl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpGirl.swift; path = ../SignUpGirl.swift; sourceTree = "<group>"; };
+		AFCB59A92A0979B9006F1117 /* SignUpBoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpBoy.swift; sourceTree = "<group>"; };
+		AFCB59AB2A097A81006F1117 /* LogInGirl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInGirl.swift; sourceTree = "<group>"; };
+		AFCB59AD2A097A91006F1117 /* LogInBoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInBoy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				AF11CF402A0194FA00E361C1 /* GirlGetterApp.swift */,
 				AF11CF422A0194FA00E361C1 /* ContentView.swift */,
 				AF9B4B852A043C8500E67BBF /* SignUpGirl.swift */,
+				AFCB59A92A0979B9006F1117 /* SignUpBoy.swift */,
+				AFCB59AB2A097A81006F1117 /* LogInGirl.swift */,
+				AFCB59AD2A097A91006F1117 /* LogInBoy.swift */,
 				AF11CF442A0194FB00E361C1 /* Assets.xcassets */,
 				AF11CF462A0194FB00E361C1 /* Preview Content */,
 			);
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFCB59AE2A097A91006F1117 /* LogInBoy.swift in Sources */,
 				AF11CF432A0194FA00E361C1 /* ContentView.swift in Sources */,
 				AF9B4B862A043C8500E67BBF /* SignUpGirl.swift in Sources */,
+				AFCB59AA2A0979B9006F1117 /* SignUpBoy.swift in Sources */,
+				AFCB59AC2A097A81006F1117 /* LogInGirl.swift in Sources */,
 				AF11CF412A0194FA00E361C1 /* GirlGetterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
