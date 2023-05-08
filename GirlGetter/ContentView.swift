@@ -36,7 +36,7 @@ struct ContentView: View {
                 .padding(.bottom)
                 
                 
-                NavigationLink(destination: SignUpGirl()) {
+                NavigationLink(destination: SignUpBoy()) {
                     Text("Sign Up As A Boy")
                         .frame(minWidth: 0, maxWidth: 150)
                         .font(.system(size: 18))
@@ -48,7 +48,7 @@ struct ContentView: View {
                 .padding(.bottom)
                 .padding(.bottom)
                 
-                NavigationLink(destination: SignUpGirl()) {
+                NavigationLink(destination: LogInGirl()) {
                     Text("Log In As A Girl")
                         .frame(minWidth: 0, maxWidth: 150)
                         .font(.system(size: 18))
@@ -60,7 +60,7 @@ struct ContentView: View {
                 .padding(.bottom)
                 .padding(.bottom)
                 
-                NavigationLink(destination: SignUpGirl()) {
+                NavigationLink(destination: LogInBoy()) {
                     Text("Log In As A Boy")
                         .frame(minWidth: 0, maxWidth: 150)
                         .font(.system(size: 18))
