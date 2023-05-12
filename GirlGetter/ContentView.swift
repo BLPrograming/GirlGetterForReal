@@ -11,8 +11,14 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                
+                Image("menAndWomen")
+                    .resizable()
+                  .frame(width: 125, height: 150, alignment: .bottom)
+                
                 Text("Girl")
                     .foregroundColor(.blue)
+                
                 
                 
                 Text("Getter")
@@ -85,37 +91,7 @@ struct ContentView: View {
             .padding(.bottom)
         }
         
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
-        .padding(.bottom)
+        
     }
     
     
