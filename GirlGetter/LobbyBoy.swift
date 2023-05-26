@@ -25,7 +25,13 @@ struct LobbyBoy: View {
                 .bold()
                 .font(.system(size: 25))
             Spacer()
-                .frame(height: 550)
+                .frame(height: 10)
+            Rectangle()
+                .frame(width: 300, height: 300)
+                .foregroundColor(.white)
+                .border(.pink)
+                Spacer()
+                .frame(height: 270)
         }
     }
 }

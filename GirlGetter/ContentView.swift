@@ -66,7 +66,7 @@ struct ContentView: View {
                 .padding(.bottom)
                 .padding(.bottom)
                 
-                NavigationLink(destination: LogInBoy()) {
+                NavigationLink(destination: LogInCorrect()) {
                     Text("Log In As A Boy")
                         .frame(minWidth: 0, maxWidth: 150)
                         .font(.system(size: 18))
